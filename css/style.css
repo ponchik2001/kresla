@@ -1,0 +1,54 @@
+@import url(sections/header.css);
+
+
+/*Шрифты*/
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap');
+
+@font-face {
+    font-family: 'Museo Sans 300 Light';
+    src: url('../fonts/MuseoSansCyrl-300.eot');
+    src: url('../fonts/MuseoSansCyrl-300.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/MuseoSansCyrl-300.woff') format('woff'),
+        url('../fonts/MuseoSansCyrl-300.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+/*.box-name {font-family: 'Museo Sans 300 Light';}*/
+
+@font-face {
+font-family: 'Museo Sans 500 Medium';
+src: url(../fonts/'../fonts/MuseoSansCyrl-500.eot');
+src: url('../fonts/MuseoSansCyrl-500.eot?#iefix') format('embedded-opentype'),
+url('../fonts/MuseoSansCyrl-500.woff') format('woff'),
+url('../fonts/MuseoSansCyrl-500.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+/*.box-name {font-family: 'Museo Sans 500 Medium';}*/
+
+@font-face {
+font-family: 'Museo Sans 700 Bold';
+src: url('../fonts/MuseoSansCyrl-700.eot');
+src: url('../fonts/MuseoSansCyrl-700.eot?#iefix') format('embedded-opentype'),
+url('../fonts/MuseoSansCyrl-700.woff') format('woff'),
+url('../fonts/MuseoSansCyrl-700.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+/*.box-name {font-family: 'Museo Sans 700 Bold';}*/
+
+@font-face {
+font-family: 'Museo Sans 900 Black';
+src: url('../fonts/MuseoSansCyrl-900.eot');
+src: url('../fonts/MuseoSansCyrl-900.eot?#iefix') format('embedded-opentype'),
+url('../fonts/MuseoSansCyrl-900.woff') format('woff'),
+url('../fonts/MuseoSansCyrl-900.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+/*.box-name {font-family: 'Museo Sans 900 Black';}*/
+
+.container {
+    max-width: 940px;
+    margin: 0 auto;
+}
