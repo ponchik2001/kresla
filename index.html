@@ -1,12 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1" или initial-scale=1.0 >
+    <meta name="viewport" content="width=device-width, initial-scale=1" или initial-scale=1.0>
     <meta charset="UTF-8">
     <title>Крылатко</title>
     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+    <script src="js/jquery.maskedinput.js"></script>
+    <script type="text/javascript">
+        jQuery(function($) {
+            $("#phone").mask("+7(999) 999-9999");
+        });
+    </script>
 </head>
 
 <body>
@@ -15,8 +22,7 @@
         <!--Верхняя линия-->
         <div class="container">
             <div class="logo-line">
-
-                <img src="img/logo.png" alt="LOGO">
+                <a href="index.html"><img src="img/logo.png" alt="LOGO"></a>
                 <div class="call">
                     <div class="number">+7 (950) 733-31-70</div>
                     <div class="call-link"><a href="tel:1111">Заказать обратный звонок</a></div>
@@ -31,14 +37,104 @@
                 <div class="back-call__container">
                     <div class="back-call__title">Нет времени читать?</div>
                     <div class="back-call__subtitle">Оставляйте номер, мы вам перезвоним!</div>
-                    <div class="back-call__input"><input type="number" placeholder="Ваш телефон"></div>
+                    <div class="back-call__input"><input type="phone" placeholder="Ваш телефон" id="phone"></div>
                     <div class="back-call__button"><button>ПЕРЕЗВОНИТЕ МНЕ</button></div>
                 </div>
             </div>
         </div>
-
     </header>
     <!--Хедер-->
+    <!--Advantages-->
+    <section class="advantages">
+        <div class="container">
+            <h2>Почему именно бескаркасные кресла?</h2>
 
+            <div class="advantages__container">
+
+                <div class="advantages__item">
+                    <img src="img/advantages-arrow.png" alt="" class="arrow-img">
+                    <div class="item-content__container">
+                        <div class="item__text">
+                            <h3>Оставляет ваш салон свободным</h3>
+                            <p>Бескаркаcное автокресло «Смайл» можно не снимать во время перевозки взрослого или груза. Кресло весит всего 700 грамм и установить можно в любой автомобиль.</p>
+                        </div>
+                        <img src="img/advantages-item1.png" alt="">
+                    </div>
+                </div>
+
+                <div class="advantages__item">
+                    <img src="img/advantages-arrow-left.png" alt="" class="arrow-img">
+                    <div class="item-content__container" style="flex-wrap: wrap-reverse;">
+                        <img src="img/advantages-item2.png" alt="">
+                        <div class="item__text">
+                            <h3>Подходит к большинству групп детей</h3>
+                            <p>Автокресло рассчитано на возраст от 1 года до 12 лет (от 9 кг до 36 кг) Имеет пятиточную фиксацию ребенка, как в гоночном автомобиле.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="advantages__item">
+                    <img src="img/advantages-arrow.png" alt="" class="arrow-img">
+                    <div class="item-content__container">
+                        <div class="item__text">
+                            <h3>Отечественный производитель</h3>
+                            <p>Автокресла производят в г. Георгиевске (Ставропольский край), соответсвуют нормам ГИБДД и разрешены к использованию по всей территории РФ, о чем говорит сертификат соответствия.</p>
+                        </div>
+                        <img src="img/advantages-item3.png" alt="">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!--Advantages-->
+
+    <!--Sale-->
+    <section class="sale">
+        <div class="container">
+           <div class="sale-sticker">
+               <div class="old-price">2 545 р.</div>
+               <div class="new-price">1 850 р.</div>
+               <img src="img/sale-arrow.png" alt="" class="sale-sticker__arrow">
+           </div>
+            <div class="sale__content">
+                <div class="sale__text-container">
+                    <h2>Скидка 28%<br><span>и бесплатная доставка</span></h2>
+                    <div class="present"><img src="img/sale-present-icon.png" alt="#">&nbsp;&nbsp;в подарок!</div>
+                </div> 
+                <div class="date__container">
+                    <div class="date__to">
+                        <span>Акция<br>только до:</span>
+                        <div class="digit">4</div>
+                         <span>декабря!</span>
+                    </div>
+                    <div class="sale__buy-button"><button>Заказать</button></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Sale-->
 
 </body></html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
