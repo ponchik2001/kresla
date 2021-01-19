@@ -1,0 +1,60 @@
+.certificate {
+    background-image: linear-gradient(to top, #f9fbfd, #ecf3f8);
+    padding-top: 80px;
+    padding-bottom: 72px;
+}
+
+.certificate .container {}
+
+.certificate h2 {
+    font-family: 'Museo Sans 700 Bold';
+    font-size: 36px;
+    text-align: center;
+    color: #535353;
+    margin-bottom: 85px;
+}
+
+.certificate .certificate__container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.certificate .certificate__text-container {
+    max-width: 385px;
+}
+
+.certificate .certificate__container img {}
+
+.certificate .certificate__title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+
+
+.certificate .certificate__title-text {
+    font-family: 'Museo Sans 700 Bold';
+    font-size: 22px;
+    font-weight: bold;
+    color: #68b0c9;
+}
+
+.certificate p {
+    font-family: 'Museo Sans 500 Medium';
+    font-size: 18px;
+    color: #323232;
+    margin-bottom: 38px;
+}
+
+@media (max-width: 628px) {
+    .certificate .certificate__title img {
+        margin-right: 20px;
+    }
+    .certificate .certificate__text-container{
+        margin-top: 20px;
+    }
+}

@@ -1,0 +1,47 @@
+.stat {
+    padding-top: 70px;
+    padding-bottom: 60px;
+}
+
+.stat .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.stat .stat__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.stat .how-match {
+    font-family: 'Museo Sans 700 Bold';
+    font-size: 48px;
+    line-height: 0.85;
+    text-align: center;
+    color: #68b0c9;
+    background: url(../../img/stat-icon.png) no-repeat;
+    background-position: center center;
+    height: 95px;
+    width: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.stat .description {
+    font-family: 'Museo Sans 500 Medium';
+    font-size: 18px;
+    text-align: center;
+    color: #535353;
+}
+
+@media (max-width:480px) {
+    .stat .container{
+        justify-content: space-around;
+    }
+}
